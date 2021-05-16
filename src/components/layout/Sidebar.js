@@ -8,25 +8,21 @@ export class Sidebar extends Component {
         <div className="sidebar">
           <nav>
             <li className="active"> </li>
+            <li className="active"> </li>
+            <li className="active"> </li>
+            <li className="active"> </li>
+            <li className="active"> </li>
 
             <ul>
-              <li className=""></li>
+              <li className="active"></li>
 
               <li className="active">{this.props.user.user.firstName}</li>
 
               <li className="active">{this.props.user.user.lastName}</li>
 
               <li className="active">{this.props.user.address}</li>
-              <li>
-                <Link className="nav-link" to="/login">
-                  Login
-                </Link>
-              </li>
-              <li>
-                <Link className="nav-link" to="/login">
-                  Login
-                </Link>
-              </li>
+              <li className="active">{this.props.user.gender}</li>
+              <li className="active">{this.props.user.dateOfBirth}</li>
             </ul>
           </nav>
         </div>
