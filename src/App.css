@@ -1,0 +1,101 @@
+img {
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  background: url("./img/showcase.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.navbar {
+  z-index: 1;
+}
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+.container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+.footer {
+  height: 50px;
+  z-index: auto;
+}
+/* .login {
+  margin-bottom: 170px;
+} */
+.navbar {
+  position: relative;
+  width: 100%;
+
+  z-index: 2;
+}
+
+.sidebar {
+  /* z-index: 0; */
+  margin-top: -80px;
+  margin-right: 33px;
+  width: fit-content;
+
+  /* position: sticky; */
+}
+
+.dashboard {
+  overflow: hidden;
+}
+.content {
+  z-index: 1;
+}
+
+.container {
+  overflow: hidden;
+
+  line-height: 110;
+}
+.maps {
+  height: 90vh;
+  width: 60vh;
+  z-index: -1;
+}
+@media only screen and (max-width: 768px) {
+  .maps {
+    margin-left: 0px;
+  }
+
+  .cool {
+    display: none;
+  }
+}
