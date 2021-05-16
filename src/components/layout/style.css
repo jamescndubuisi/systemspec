@@ -1,6 +1,6 @@
-/* @import "https://fonts.googleapis.com/css?family=Lato:300,400";
+/* @import "https://fonts.googleapis.com/css?family=Lato:300,400";*/
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,9 +17,9 @@ html {
   content: "";
   display: block;
   clear: both;
-}
+} */
 
-a {
+/* a {
   color: #fff;
   text-decoration: none;
 }
@@ -33,8 +33,8 @@ a {
   text-align: center;
   cursor: pointer;
   display: none;
-}
-.nav-btn:active {
+} */
+/* .nav-btn:active {
   background-color: #090909;
 }
 
@@ -43,9 +43,9 @@ header {
   width: 100%;
   background-color: #274c6b;
   display: none;
-}
+} */
 
-header .logo {
+/* header .logo {
   opacity: 0.9;
   font-size: 120%;
   padding-top: 9px;
@@ -54,13 +54,14 @@ header .logo {
 }
 header .logo span {
   font-weight: 300;
-}
+}*/
 
 .container {
-  width: 100%;
+  width: 97%;
   height: 100%;
-  position: relative;
-}*/
+  position: static;
+  margin-top: -9px;
+}
 
 .sidebar {
   width: 250px;
@@ -69,8 +70,9 @@ header .logo span {
   top: 70px;
   left: 0;
   bottom: 0;
-  /* box-shadow: 1px 0px 10px #777; */
 }
+/* box-shadow: 1px 0px 10px #777; 
+}*/
 
 .sidebar nav > a {
   font-size: 150%;

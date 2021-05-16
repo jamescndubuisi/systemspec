@@ -29,9 +29,9 @@ class Login extends Component {
   onSubmit(e) {
     e.preventDefault();
     const newUser = {
-      username: this.state.username,
       password: this.state.password,
       rememberMe: true,
+      username: this.state.username,
     };
     console.log(newUser);
     const correct = {
@@ -40,7 +40,7 @@ class Login extends Component {
       username: "+2347040092726",
     };
 
-    this.props.loginUser(correct);
+    this.props.loginUser(newUser);
   }
 
   render() {
@@ -49,7 +49,7 @@ class Login extends Component {
     } else {
       return (
         <div className="login">
-          <div className="container">
+          <div className="bar">
             <div className="row">
               <div className="col-md-8 m-auto">
                 <h1 className="display-4 text-center">Log In</h1>

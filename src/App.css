@@ -37,15 +37,14 @@ img {
   height: 40px;
 }
 
-.container::-webkit-scrollbar {
-  display: none;
-}
-.container {
+/* .container::-webkit-scrollbar {
+  display: none; */
+
+/* .container {
   scrollbar-width: none;
   -ms-overflow-style: none;
-  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-y: hidden; /* Hide vertical scrollbar 
   overflow-x: hidden; /* Hide horizontal scrollbar */
-}
 .form-control::placeholder {
   color: #bbb !important;
 }
@@ -83,11 +82,13 @@ img {
 .container {
   overflow: hidden;
 
-  line-height: 110;
+  /* line-height: 110; */
 }
 .maps {
-  height: 90vh;
-  width: 60vh;
+  height: 100vh;
+  width: 100vh;
+  margin-left: 300px;
+
   z-index: -1;
 }
 @media only screen and (max-width: 768px) {
